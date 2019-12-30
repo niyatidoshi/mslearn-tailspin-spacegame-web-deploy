@@ -14,8 +14,8 @@ stages:
         - npm
 
     variables:
-    wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-    dotnetSdkVersion: '2.1.505'
+        wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
+        dotnetSdkVersion: '2.1.505'
 
     steps:
     - task: DotNetCoreInstaller@0
